@@ -1,0 +1,13 @@
+
+
+alias python="python3"
+
+export CC=/usr/local/bin/gcc
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home
+export JDK_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home
+export PATH=$(pwd)/apache-maven-3.8.1/bin:$PATH
+export PYTHONPATH=$(pwd)/jpy/build/lib.macosx-11-x86_64-3.9
+
+
+
+

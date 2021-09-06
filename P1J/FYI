@@ -1,0 +1,10 @@
+
+cp ../jpy/build/lib.macosx-11-x86_64-3.9/jpyconfig.properties org/jpy
+cp ../jpy/build/lib.macosx-11-x86_64-3.9/jpy-0.10.0-SNAPSHOT.jar jpy.jar 
+
+export PYTHONPATH=./pycode:$PYTHONPATH
+
+javac -cp org/jpy:jpy.jar -d org/jpy demoFile.java
+
+java -cp org/jpy:jpy.jar demoFile
+

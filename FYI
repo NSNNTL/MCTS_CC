@@ -1,0 +1,14 @@
+brew install gcc
+brew install python
+
+maven install <- buildjpy.rc
+
+git clone jpy url
+
+soure buildfpy.rc <- check the file for detial
+
+
+cd jpy
+python setup.py build maven
+
+
